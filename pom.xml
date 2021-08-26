@@ -118,4 +118,15 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>${distribution.id}</id>
+      <url>${distribution.url.snapshot}</url>
+    </snapshotRepository>
+    <repository>
+      <id>${distribution.id}</id>
+      <url>${distribution.url.release}</url>
+    </repository>
+  </distributionManagement>
+
 </project>
